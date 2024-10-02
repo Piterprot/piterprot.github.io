@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fomt SPA - Negro Pietro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/root/logo_fomt.png">
+
+    
+<style>
+  body { 
+     background-color: rgb(33, 37, 41);
+     z-index: 1;
+   }
+ 
+   p {
+     color: white;
+   }
+ 
+  h4 {
+   color:white
+  }
+  
+  .titolo{
+   color:red;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: bolder;
+  }
+  a{
+   color: white;
+   text-decoration: none;
+   text-decoration-line: none;
+   text-decoration-color: red;
+  }
+  .footer{
+     color:white;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     background-color: rgb(33, 37, 41);
+
+   }
+   #bottom{
+    background-color: rgb(33, 37, 41);
+    color: white;
+  }
+
+  div {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  z-index: 1;
+  }
+
+  img{
+    z-index: 2;
+  }
+
+
+.tastoShop{
+    background-color: red;
+    color: black;
+    margin-top:  4%;
+    margin-left: 3%;
+    position: absolute; 
+    display: none;
+    z-index: 2;
+    
+  }
+  
+  .thumbnail:hover .tastoShop{
+    
+  display: block;
+  z-index: 2;
+}
+
+.ad{
+  color: black;
+  background-color: red;
+  font-weight: bolder;
+  font-size: large;
+  text-align: center;
+}
+
+ 
+ </style>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark text-white navbar-dark fixed-top">
+
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <img src="img/root/logo_fomt.png" alt="Logo FOMT" style="width:45px; margin-top: 20%;" class="rounded-pill" > 
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html" style="margin-left: 10%;">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Prodotti</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contatti.html">Chi Siamo</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  
+      <div class="ad" style="margin-bottom: 2%; margin-top: 55px;" >
+        <p class="ad">
+          ATTENZIONE! NON DISPONIAMO DI UN E-COMMERCE, PER ACQUISTARE 
+        </p>
+        <a href="mailto:info@fomt.com " >
+          CLICCARE QUI
+        </a>
+      </div>
+   <!-- INIZIO SCROLLSPY, rende clickabili gli item-->
+
+
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+
+  <div class="container">
+    <div class="row ">
+      <nav class="col-sm-2 " id="myScrollspy" >
+        <ul class="nav nav-pills nav-stacked">
+          <li><a href="#Supporti">Supporti</a></li>
+        </ul>
+        <ul class="nav nav-pills nav-stacked">
+          <li><a href="#Raccordi">Raccordi & Collettori</a></li>
+        </ul>
+        <ul class="nav nav-pills nav-stacked">
+          <li><a href="#Componenti">Componenti</a></li>
+        </ul>
+        <ul class="nav nav-pills nav-stacked">
+          <li><a href="#Progetti">Progetti speciali</a></li>
+        </ul>
+      </nav>
+        
+      <!-- Scrollspy di Supporti-->
+
+      <div class="col-sm-8">
+        <div id="Supporti">
+          <h1 class="titolo">Supporti</h1>
+        </div>
+
+        <!-- Placeholder di Supporti-->
+        <div class="row">
+          <div class="col-md-4">
+            <div class="thumbnail">
+                
+              <a href="/prodotti/supportointermedio.html">
+                <input type="button" value="ACQUISTA ORA" class="btn tastoShop">
+              </a>
+                <img src="img/prodotti/supporti/supporto1.png" alt=" Supporto intermedio" style="width:100%">
+                <div class="caption">
+                  <p> Supporto intermedio</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+                <a href="/prodotti/staffancoraggio.html"> 
+                <input type="button" value="ACQUISTA ORA" class="btn tastoShop">
+              </a>
+                <img src="img/prodotti/supporti/supporto2.png" alt="Staffa ancoraggio tubo di scarico" style="width:100%">
+                <div class="caption">
+                  <p>Staffa ancoraggio tubo di scarico</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <a href="/prodotti/corpofiltro.html">
+              <input type="button" value="ACQUISTA ORA" class="btn tastoShop">
+            </a>
+                <img src="img/prodotti/supporti/supporto3.jpg" alt=" Corpo filtro olio" style="width:100%">
+                <div class="caption">
+                  <p> Corpo filtro olio</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Scrollspy di Raccordi-->
+
+        <div id="Raccordi">
+          <h1 class="titolo">Raccordi & Collettori</h1>
+        </div>
+
+        <!-- Placeholder di Raccordi-->
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="thumbnail" style="width: 100%;">
+              <a href="/prodotti/aspirazionefuso.html">
+              <input type="button" value="ACQUISTA ORA" class="btn tastoShop">
+            </a>
+                <img src="img/prodotti/collettore/collettore1.jpg" alt="Collettore di aspirazione fuso" style="width:100%">
+                <div class="caption">
+                  <p>Collettore di aspirazione fuso</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail" style="width: 100%;">
+              <a href="/prodotti/collettoreacqua.html">
+              <input type="button" value="ACQUISTA ORA" class="btn tastoShop">
+                <img src="img/prodotti/collettore/collettore2.png" alt="Collettore acqua" style="width:100%">
+              </a>
+                <div class="caption">
+                  <p>Collettore acqua</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="thumbnail" style="width: 100%;">
+              <a href="/prodotti/bocchettone.html"> 
+              <input type="button" value="ACQUISTA ORA" class="btn tastoShop">
+            </a>  
+              <img src="img/prodotti/collettore/collettore3.png" alt="Bocchettone" style="width:100%">
+              <div class="caption">
+                  <p>Bocchettone</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="thumbnail" style="width: 100%;">
+              <input type="button" value="NON DISPONIBILE" class="btn tastoShop">
+                <img src="img/prodotti/collettore/collettore5.jpg" alt=" Tubo aspirazione" style="width:100%">
+                <div class="caption">
+                  <p> Tubo aspirazione</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          
+          <div class="col-md-4">
+            <div class="thumbnail" style="width: 100%;">
+              <input type="button" value="NON DISPONIBILE" class="btn tastoShop">                
+                <img src="img/prodotti/collettore/collettore4.png" alt="Collettore di aspirazione" style="width:100%">
+                <div class="caption">
+                  <p>Collettore di aspirazione</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          
+          <div class="col-md-4">
+            <div class="thumbnail" style="width: 100%;">
+              <input type="button" value="NON DISPONIBILE" class="btn tastoShop">                
+                <img src="img/prodotti/collettore/collettore6.jpg" alt="Collettore di aspirazione" style="width:100%">
+                <div class="caption">
+                  <p>Collettore di aspirazione</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          
+        </div>
+ 
+        <!-- Scrollspy di Componenti-->
+        <div id="Componenti">
+          <h1 class="titolo">Componenti</h1>
+        </div>
+        
+        <!-- Placeholder di Componenti-->
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <input type="button" value="NON DISPONIBILE" class="btn tastoShop">                
+                <img src="img/prodotti/componenti/cilindro.jpg" alt="cilindro" style="width:100%">
+                <div class="caption">
+                  <p>cilindro</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <input type="button" value="NON DISPONIBILE" class="btn tastoShop">                
+                <img src="img/prodotti/componenti/corpo.jpg" alt="Corpo Superiore" style="width:100%">
+                <div class="caption">
+                  <p>Corpo Superiore</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <input type="button" value="NON DISPONIBILE" class="btn tastoShop">                
+
+                <img src="img/prodotti/componenti/scatola.jpg" alt=" Scatola ingranaggi" style="width:100%">
+                <div class="caption">
+                  <p> Scatola ingranaggi</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Scrollspy di Progetti-->
+        <div id="Progetti">
+          <h1 class="titolo">Progetti Speciali</h1>
+        </div>
+
+        <!-- Placeholder di Progetti-->
+
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <input type="button" value="NON DISPONIBILE" class="btn tastoShop"> 
+                <img src="img/prodotti/speciali/coperchio.png" alt=" Coperchio con maniglie" style="width:100%">
+                <div class="caption">
+                  <p> Coperchio con maniglie</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <input type="button" value="NON DISPONIBILE" class="btn tastoShop">                
+                <img src="img/prodotti/speciali/testa.jpg" alt="Testa cilindri" style="width:100%">
+                <div class="caption">
+                  <p>Testa cilindri</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <input type="button" value="NON DISPONIBILE" class="btn tastoShop">    
+              <img src="img/prodotti/speciali/primario.png" alt="Primario" style="width:100%">
+                <div class="caption">
+                  <p>Primario</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <input type="button" value="NON DISPONIBILE" class="btn tastoShop">                
+                <img src="img/prodotti/speciali/coperchio2.jpg" alt="Coperchio" style="width:100%">
+                <div class="caption">
+                  <p>Coperchio</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <input type="button" value="NON DISPONIBILE" class="btn tastoShop">                
+                <img src="img/prodotti/speciali/scarico.jpg" alt="Collettore con scarico" style="width:100%">
+                <div class="caption">
+                  <p>Collettore con scarico</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <input type="button" value="NON DISPONIBILE" class="btn tastoShop">                
+                <img src="img/prodotti/speciali/griglia.jpg" alt="Fjords" style="width:100%">
+                <div class="caption">
+                  <p>Griglia</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+         <!-- Footer -->
+
+         <footer id="bottom">
+          <div>
+            <div class="footer">
+              F.O.M.T. S.p.A. – Fonderie Officine Meccaniche Tonno a socio unico
+            </div>
+
+            <!-- INIZIO OFFCANVAS-->
+            <a class="btn btn-danger" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample" style="margin-bottom: -2%; margin-left: 15%;">
+              Menu di navigazione
+            
+            </a>
+        
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas- title" id="offcanvasExampleLabel" style="color: black;">Menu di navigazione</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <div style="color: black;">
+                  Puoi utilizzare anche questo menu per navigare sul sito
+                </div>
+                <div class="dropdown mt-3">
+                  <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                    Navigazione
+                  </button> 
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="index.html">Home</a></li>
+                    <li><a class="dropdown-item" href="shop.html">Prodotti</a></li>
+                    <li><a class="dropdown-item" href="contatti.html">Contatti</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- FINE OFFCANVAS-->
+        
+        
+        
+            <div class="footer">
+              P IVA 00481770014
+            </div>
+            <span class="footer">
+              <a target='blank' href='https://www.google.it/maps/place/F.o.m.t.+Spa/@45.0457046,7.5963766,14z/data=!4m2!3m1!1s0x0:0x77610b4d3764e063 '>
+              <i class="material-icons" style="font-size:36px">place</i>
+              </a>
+            </span>
+              <span>
+                Viale Lidice 8 • 10095 • Grugliasco (Torino) • Italia
+                <i class="material-icons" style="font-size:36px">phone</i>  T +39.011.3148900 • F +39.0113149441  
+            </span>
+            <div class="footer">
+              <a href="http://www.fomt.it/informativa-sulla-privacy/">Privacy Policy</a>
+            </div>
+            <div class="footer">
+              Tutti i contenuti (testi, immagini, grafica, layout ecc.) presenti di questo sito Internet www.fomt.it appartengono ai rispettivi proprietari. La grafica, foto, video ed i contenuti, ove non diversamente specificato, appartengono a FOMT SpA.
+            </div>
+            
+          </div>
+          </footer>
+  
+
+
+
+</body> 
+</html>
